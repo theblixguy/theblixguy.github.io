@@ -1,9 +1,15 @@
 {
-      "applinks": {
-      "apps": [],
-      "details": [
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
       {
-        "appID": "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
+        "appIDs": [
+          "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+          "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
+          "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp"
+        ],
         "paths": [
           "*/p/*",
           "/l/*",
@@ -11,32 +17,29 @@
           "*/MSSparksLandingPage*",
           "/sparks",
           "/mysparks",
-          "/mysparks/qrcode",
-          "*/mobile-pay-go"
-        ]
-      },
-      {
-        "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "/mysparks"
-        ]
+          "/mysparks/qrcode"
+        ],
+        "components": [
+          {
+            "?": {
+              "disable_deeplink": "1"
+            },
+            "exclude": true,
+            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+          }
+        ],
+        "webcredentials": {
+          "apps": [
+            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+            "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
+          ]
+        },
+        "appclips": {
+          "apps": [
+            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
+          ]
+        }
       }
-      ]
-      },
-      "webcredentials": {
-      "apps": [
-      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-      "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
-      ]
-      },
-      "appclips": {
-      "apps": [
-      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
-      ]
-      }
-      }
+    ]
+  }
+}
