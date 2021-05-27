@@ -1,0 +1,42 @@
+{
+      "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
+        "paths": [
+          "*/p/*",
+          "/l/*",
+          "*/MSNorth*",
+          "*/MSSparksLandingPage*",
+          "/sparks",
+          "/mysparks",
+          "/mysparks/qrcode",
+          "*/mobile-pay-go"
+        ]
+      },
+      {
+        "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
+        "paths": [
+          "*/p/*",
+          "/l/*",
+          "*/MSNorth*",
+          "*/MSSparksLandingPage*",
+          "/sparks",
+          "/mysparks"
+        ]
+      }
+      ]
+      },
+      "webcredentials": {
+      "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+      "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
+      ]
+      },
+      "appclips": {
+      "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
+      ]
+      }
+      }
