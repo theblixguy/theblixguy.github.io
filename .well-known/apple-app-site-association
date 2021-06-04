@@ -8,7 +8,8 @@
         "appIDs": [
           "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
           "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
-          "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp"
+          "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
+          "H5THYY5CX3.com.marksandspencer.private.dev.iphoneApp"
         ],
         "paths": [
           "*/p/*",
