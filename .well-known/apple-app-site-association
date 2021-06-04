@@ -1,8 +1,5 @@
 {
   "applinks": {
-    "apps": [
-      
-    ],
     "details": [
       {
         "appIDs": [
@@ -11,15 +8,6 @@
           "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
           "H5THYY5CX3.com.marksandspencer.private.dev.iphoneApp"
         ],
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "/mysparks",
-          "/mysparks/qrcode"
-        ],
         "components": [
           {
             "?": {
@@ -27,20 +15,24 @@
             },
             "exclude": true,
             "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+          },
+          {
+            "/": "/mysparks/qrcode",
+            "comment": "Matches QR code link"
           }
-        ],
-        "webcredentials": {
-          "apps": [
-            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-            "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
-          ]
-        },
-        "appclips": {
-          "apps": [
-            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
-          ]
-        }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+      "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
     ]
   }
 }
