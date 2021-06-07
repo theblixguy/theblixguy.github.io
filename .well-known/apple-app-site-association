@@ -4,49 +4,6 @@
     "details": [
       {
         "appID": "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
-        ]
-      },
-      {
-        "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
-        ]
-      },
-      {
-        "appID": "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
-        ]
-      },
-      {
-        "appIDs": [
-          "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
-          "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-          "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp"
-        ],
         "components": [
           {
             "?": {
@@ -79,19 +36,121 @@
           {
             "/": "/mysparks/qrcode"
           }
+        ],
+        "paths": [
+          "*/p/*",
+          "/l/*",
+          "*/MSNorth*",
+          "*/MSSparksLandingPage*",
+          "/sparks",
+          "/mysparks",
+          "*/mobile-pay-go",
+          "/mysparks/qrcode"
+        ]
+      },
+      {
+        "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
+        "components": [
+          {
+            "?": {
+              "disable_deeplink": "1"
+            },
+            "exclude": true,
+            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+          },
+          {
+            "/": "*/p/*"
+          },
+          {
+            "/": "/l/*"
+          },
+          {
+            "/": "*/MSNorth*"
+          },
+          {
+            "/": "*/MSSparksLandingPage*"
+          },
+          {
+            "/": "/sparks"
+          },
+          {
+            "/": "/mysparks"
+          },
+          {
+            "/": "*/mobile-pay-go"
+          },
+          {
+            "/": "/mysparks/qrcode"
+          }
+        ],
+        "paths": [
+          "*/p/*",
+          "/l/*",
+          "*/MSNorth*",
+          "*/MSSparksLandingPage*",
+          "/sparks",
+          "/mysparks",
+          "*/mobile-pay-go",
+          "/mysparks/qrcode"
+        ]
+      },
+      {
+        "appID": "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
+        "components": [
+          {
+            "?": {
+              "disable_deeplink": "1"
+            },
+            "exclude": true,
+            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+          },
+          {
+            "/": "*/p/*"
+          },
+          {
+            "/": "/l/*"
+          },
+          {
+            "/": "*/MSNorth*"
+          },
+          {
+            "/": "*/MSSparksLandingPage*"
+          },
+          {
+            "/": "/sparks"
+          },
+          {
+            "/": "/mysparks"
+          },
+          {
+            "/": "*/mobile-pay-go"
+          },
+          {
+            "/": "/mysparks/qrcode"
+          }
+        ],
+        "paths": [
+          "*/p/*",
+          "/l/*",
+          "*/MSNorth*",
+          "*/MSSparksLandingPage*",
+          "/sparks",
+          "/mysparks",
+          "*/mobile-pay-go",
+          "/mysparks/qrcode"
         ]
       }
-    ],
-    "webcredentials": {
-      "apps": [
-        "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-        "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
-      ]
-    },
-    "appclips": {
-      "apps": [
-        "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
-      ]
-    }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+      "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
+    ]
   }
 }
