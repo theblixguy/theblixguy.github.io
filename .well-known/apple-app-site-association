@@ -28,7 +28,7 @@
             "/": "/sparks"
           },
           {
-            "/": "/mysparks"
+            "/": "*/mysparks"
           },
           {
             "/": "*/mobile-pay-go"
@@ -43,7 +43,7 @@
           "*/MSNorth*",
           "*/MSSparksLandingPage*",
           "/sparks",
-          "/mysparks",
+          "*/mysparks",
           "*/mobile-pay-go",
           "/mysparks/qrcode"
         ]
@@ -74,7 +74,7 @@
             "/": "/sparks"
           },
           {
-            "/": "/mysparks"
+            "/": "*/mysparks"
           },
           {
             "/": "*/mobile-pay-go"
@@ -89,7 +89,7 @@
           "*/MSNorth*",
           "*/MSSparksLandingPage*",
           "/sparks",
-          "/mysparks",
+          "*/mysparks",
           "*/mobile-pay-go",
           "/mysparks/qrcode"
         ]
@@ -120,7 +120,7 @@
             "/": "/sparks"
           },
           {
-            "/": "/mysparks"
+            "/": "*/mysparks"
           },
           {
             "/": "*/mobile-pay-go"
@@ -135,7 +135,7 @@
           "*/MSNorth*",
           "*/MSSparksLandingPage*",
           "/sparks",
-          "/mysparks",
+          "*/mysparks",
           "*/mobile-pay-go",
           "/mysparks/qrcode"
         ]
