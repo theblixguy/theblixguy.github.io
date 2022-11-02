@@ -1,156 +1,401 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-        "components": [
-          {
-            "?": {
-              "disable_deeplink": "1"
+    "applinks":
+    {
+        "apps":
+        [],
+        "details":
+        [
+            {
+                "appID": "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+                "components":
+                [
+                    {
+                        "?":
+                        {
+                            "disable_deeplink": "1"
+                        },
+                        "exclude": true,
+                        "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+                    },
+                    {
+                        "/": "/"
+                    },
+                    {
+                        "/": "/c/"
+                    },
+                    {
+                        "/": "/c/beauty"
+                    },
+                    {
+                        "/": "/c/brands"
+                    },
+                    {
+                        "/": "/c/brands/jaeger-shop"
+                    },
+                    {
+                        "/": "/c/brands/az-of-brands"
+                    },
+                    {
+                        "/": "/c/furniture"
+                    },
+                    {
+                        "/": "/c/furniture/sofas"
+                    },
+                    {
+                        "/": "/c/home-and-furniture"
+                    },
+                    {
+                        "/": "/c/home-and-furniture/bed-linen"
+                    },
+                    {
+                        "/": "/c/kids"
+                    },
+                    {
+                        "/": "/c/lingerie"
+                    },
+                    {
+                        "/": "/c/men"
+                    },
+                    {
+                        "/": "/c/women"
+                    },
+                    {
+                        "/": "*/p/*"
+                    },
+                    {
+                        "/": "*/l/*"
+                    },
+                    {
+                        "/": "*/MSNorth*"
+                    },
+                    {
+                        "/": "*/MSSparksLandingPage*"
+                    },
+                    {
+                        "/": "/sparks"
+                    },
+                    {
+                        "/": "*/mysparks"
+                    },
+                    {
+                        "/": "*/mobile-pay-go"
+                    },
+                    {
+                        "/": "/mysparks/qrcode"
+                    },
+                    {
+                        "/": "/c/scan-and-shop"
+                    },
+                    {
+                        "/": "/mysparks/scan-and-shop"
+                    },
+                    {
+                        "/": "/football"
+                    },
+                    {
+                        "/": "*/mysparks/12daysofsparks"
+                    },
+                    {
+                      "/": "/sparks/bind"
+                    }
+                ],
+                "paths":
+                [
+                    "/",
+                    "/c/",
+                    "/c/beauty",
+                    "/c/brands",
+                    "/c/brands/jaeger-shop",
+                    "/c/brands/az-of-brands",
+                    "/c/furniture",
+                    "/c/furniture/sofas",
+                    "/c/home-and-furniture",
+                    "/c/home-and-furniture/bed-linen",
+                    "/c/kids",
+                    "/c/lingerie",
+                    "/c/men",
+                    "/c/women",
+                    "*/p/*",
+                    "*/l/*",
+                    "*/MSNorth*",
+                    "*/MSSparksLandingPage*",
+                    "/sparks",
+                    "*/mysparks",
+                    "*/mobile-pay-go",
+                    "/mysparks/qrcode",
+                    "/c/scan-and-shop",
+                    "/mysparks/scan-and-shop",
+                    "/football",
+                    "*/mysparks/12daysofsparks",
+                    "/sparks/bind"
+                ]
             },
-            "exclude": true,
-            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
-          },
-          {
-            "/": "*/p/*"
-          },
-          {
-            "/": "/l/*"
-          },
-          {
-            "/": "*/MSNorth*"
-          },
-          {
-            "/": "*/MSSparksLandingPage*"
-          },
-          {
-            "/": "/sparks"
-          },
-          {
-            "/": "*/mysparks"
-          },
-          {
-            "/": "*/mobile-pay-go"
-          },
-          {
-            "/": "/mysparks/qrcode"
-          }
-        ],
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "*/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
-        ]
-      },
-      {
-        "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
-        "components": [
-          {
-            "?": {
-              "disable_deeplink": "1"
+            {
+                "appID": "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
+                "components":
+                [
+                    {
+                        "?":
+                        {
+                            "disable_deeplink": "1"
+                        },
+                        "exclude": true,
+                        "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+                    },
+                    {
+                        "/": "/"
+                    },
+                    {
+                        "/": "/c/"
+                    },
+                    {
+                        "/": "/c/beauty"
+                    },
+                    {
+                        "/": "/c/brands"
+                    },
+                    {
+                        "/": "/c/brands/jaeger-shop"
+                    },
+                    {
+                        "/": "/c/brands/az-of-brands"
+                    },
+                    {
+                        "/": "/c/furniture"
+                    },
+                    {
+                        "/": "/c/furniture/sofas"
+                    },
+                    {
+                        "/": "/c/home-and-furniture"
+                    },
+                    {
+                        "/": "/c/home-and-furniture/bed-linen"
+                    },
+                    {
+                        "/": "/c/kids"
+                    },
+                    {
+                        "/": "/c/lingerie"
+                    },
+                    {
+                        "/": "/c/men"
+                    },
+                    {
+                        "/": "/c/women"
+                    },
+                    {
+                        "/": "*/p/*"
+                    },
+                    {
+                        "/": "*/l/*"
+                    },
+                    {
+                        "/": "*/MSNorth*"
+                    },
+                    {
+                        "/": "*/MSSparksLandingPage*"
+                    },
+                    {
+                        "/": "/sparks"
+                    },
+                    {
+                        "/": "*/mysparks"
+                    },
+                    {
+                        "/": "*/mobile-pay-go"
+                    },
+                    {
+                        "/": "/mysparks/qrcode"
+                    },
+                    {
+                        "/": "/c/scan-and-shop"
+                    },
+                    {
+                        "/": "/mysparks/scan-and-shop"
+                    },
+                    {
+                        "/": "/football"
+                    },
+                    {
+                        "/": "*/mysparks/12daysofsparks"
+                    },
+                    {
+                        "/": "/sparks/bind"
+                    }
+                ],
+                "paths":
+                [
+                    "/",
+                    "/c/",
+                    "/c/beauty",
+                    "/c/brands",
+                    "/c/brands/jaeger-shop",
+                    "/c/brands/az-of-brands",
+                    "/c/furniture",
+                    "/c/furniture/sofas",
+                    "/c/home-and-furniture",
+                    "/c/home-and-furniture/bed-linen",
+                    "/c/kids",
+                    "/c/lingerie",
+                    "/c/men",
+                    "/c/women",
+                    "*/p/*",
+                    "*/l/*",
+                    "*/MSNorth*",
+                    "*/MSSparksLandingPage*",
+                    "/sparks",
+                    "*/mysparks",
+                    "*/mobile-pay-go",
+                    "/mysparks/qrcode",
+                    "/c/scan-and-shop",
+                    "/mysparks/scan-and-shop",
+                    "/football",
+                    "*/mysparks/12daysofsparks",
+                    "/sparks/bind"
+                ]
             },
-            "exclude": true,
-            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
-          },
-          {
-            "/": "*/p/*"
-          },
-          {
-            "/": "/l/*"
-          },
-          {
-            "/": "*/MSNorth*"
-          },
-          {
-            "/": "*/MSSparksLandingPage*"
-          },
-          {
-            "/": "/sparks"
-          },
-          {
-            "/": "*/mysparks"
-          },
-          {
-            "/": "*/mobile-pay-go"
-          },
-          {
-            "/": "/mysparks/qrcode"
-          }
-        ],
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "*/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
+            {
+                "appID": "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp",
+                "components":
+                [
+                    {
+                        "?":
+                        {
+                            "disable_deeplink": "1"
+                        },
+                        "exclude": true,
+                        "comment": "Disable deeplinks where the query ?disable_deeplink=1"
+                    },
+                    {
+                        "/": "/"
+                    },
+                    {
+                        "/": "/c/"
+                    },
+                    {
+                        "/": "/c/beauty"
+                    },
+                    {
+                        "/": "/c/brands"
+                    },
+                    {
+                        "/": "/c/brands/jaeger-shop"
+                    },
+                    {
+                        "/": "/c/brands/az-of-brands"
+                    },
+                    {
+                        "/": "/c/furniture"
+                    },
+                    {
+                        "/": "/c/furniture/sofas"
+                    },
+                    {
+                        "/": "/c/home-and-furniture"
+                    },
+                    {
+                        "/": "/c/home-and-furniture/bed-linen"
+                    },
+                    {
+                        "/": "/c/kids"
+                    },
+                    {
+                        "/": "/c/lingerie"
+                    },
+                    {
+                        "/": "/c/men"
+                    },
+                    {
+                        "/": "/c/women"
+                    },
+                    {
+                        "/": "*/p/*"
+                    },
+                    {
+                        "/": "*/l/*"
+                    },
+                    {
+                        "/": "*/MSNorth*"
+                    },
+                    {
+                        "/": "*/MSSparksLandingPage*"
+                    },
+                    {
+                        "/": "/sparks"
+                    },
+                    {
+                        "/": "*/mysparks"
+                    },
+                    {
+                        "/": "*/mobile-pay-go"
+                    },
+                    {
+                        "/": "/mysparks/qrcode"
+                    },
+                    {
+                        "/": "/c/scan-and-shop"
+                    },
+                    {
+                        "/": "/mysparks/scan-and-shop"
+                    },
+                    {
+                        "/": "/football"
+                    },
+                    {
+                        "/": "*/mysparks/12daysofsparks"
+                    },
+                    {
+                        "/": "/sparks/bind"
+                    }
+                ],
+                "paths":
+                [
+                    "/",
+                    "/c/",
+                    "/c/beauty",
+                    "/c/brands",
+                    "/c/brands/jaeger-shop",
+                    "/c/brands/az-of-brands",
+                    "/c/furniture",
+                    "/c/furniture/sofas",
+                    "/c/home-and-furniture",
+                    "/c/home-and-furniture/bed-linen",
+                    "/c/kids",
+                    "/c/lingerie",
+                    "/c/men",
+                    "/c/women",
+                    "*/p/*",
+                    "*/l/*",
+                    "*/MSNorth*",
+                    "*/MSSparksLandingPage*",
+                    "/sparks",
+                    "*/mysparks",
+                    "*/mobile-pay-go",
+                    "/mysparks/qrcode",
+                    "/c/scan-and-shop",
+                    "/mysparks/scan-and-shop",
+                    "/football",
+                    "*/mysparks/12daysofsparks",
+                    "/sparks/bind"
+                ]
+            }
         ]
-      },
-      {
-        "appID": "H5THYY5CX3.com.marksandspencer.private.dev.iphoneApp",
-        "components": [
-          {
-            "?": {
-              "disable_deeplink": "1"
-            },
-            "exclude": true,
-            "comment": "Disable deeplinks where the query ?disable_deeplink=1"
-          },
-          {
-            "/": "*/p/*"
-          },
-          {
-            "/": "/l/*"
-          },
-          {
-            "/": "*/MSNorth*"
-          },
-          {
-            "/": "*/MSSparksLandingPage*"
-          },
-          {
-            "/": "/sparks"
-          },
-          {
-            "/": "*/mysparks"
-          },
-          {
-            "/": "*/mobile-pay-go"
-          },
-          {
-            "/": "/mysparks/qrcode"
-          }
-        ],
-        "paths": [
-          "*/p/*",
-          "/l/*",
-          "*/MSNorth*",
-          "*/MSSparksLandingPage*",
-          "/sparks",
-          "*/mysparks",
-          "*/mobile-pay-go",
-          "/mysparks/qrcode"
+    },
+    "webcredentials":
+    {
+        "apps":
+        [
+            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
+            "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise",
+            "F4FKZMR5MG.com.marksandspencer.private.dev.iphoneApp"
         ]
-      }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp",
-      "E68QAAURD5.com.marksandspencer.public.retail.iphoneAppEnterprise"
-    ]
-  },
-  "appclips": {
-    "apps": [
-      "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
-    ]
-  }
+    },
+    "appclips":
+    {
+        "apps":
+        [
+            "F4FKZMR5MG.com.marksandspencer.public.retail.iphoneApp.Clip"
+        ]
+    }
 }
